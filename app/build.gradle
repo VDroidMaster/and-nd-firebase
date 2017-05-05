@@ -40,4 +40,9 @@ dependencies {
 
     // Displaying images
     compile 'com.github.bumptech.glide:glide:3.6.1'
+
+    // Firebase realtime databaase
+    compile 'com.google.firebase:firebase-database:10.2.4'
 }
+
+apply plugin: 'com.google.gms.google-services'
