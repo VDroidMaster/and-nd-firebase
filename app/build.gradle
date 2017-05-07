@@ -9,7 +9,7 @@ repositories {
 
 android {
     compileSdkVersion 24
-    buildToolsVersion "24.0.1"
+    buildToolsVersion '25.0.0'
 
     defaultConfig {
         applicationId "com.google.firebase.udacity.friendlychat"
@@ -42,6 +42,8 @@ dependencies {
     compile 'com.google.firebase:firebase-database:10.2.4'
     // Firebase authentication
     compile 'com.google.firebase:firebase-auth:10.2.4'
+    // Firebase storage
+    compile 'com.google.firebase:firebase-storage:10.2.4'
     // Firebase authentication UI
     compile 'com.firebaseui:firebase-ui-auth:1.2.0'
 }
